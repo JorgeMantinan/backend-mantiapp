@@ -1,0 +1,6 @@
+com\mantiapp\springboot\backend\apirest\models\services\IClienteService.class
+com\mantiapp\springboot\backend\apirest\models\services\ClienteServiceImpl.class
+com\mantiapp\springboot\backend\apirest\SpringBootBackendApirestApplication.class
+com\mantiapp\springboot\backend\apirest\controllers\ClienteRestController.class
+com\mantiapp\springboot\backend\apirest\models\dao\IClienteDao.class
+com\mantiapp\springboot\backend\apirest\models\entity\Cliente.class

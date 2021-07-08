@@ -3,6 +3,8 @@ package com.mantiapp.springboot.backend.apirest.models.entity;
 import java.io.Serializable;
 import java.util.Date;
 import javax.persistence.*;
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotBlank;
 
 @Entity
 @Table(name="owners")
@@ -11,6 +13,10 @@ public class Owner implements Serializable {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
+
+	@Column(unique = true)
+	@Email
+	@NotBlank
 	private String email;
 
 	private String name;

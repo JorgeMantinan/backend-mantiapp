@@ -20,6 +20,12 @@ public class OwnerServiceImpl implements IOwnerService {
 		return (List<Owner>) ownerDao.findAll();
 	}
 
+	/*@Override
+	@Transactional(readOnly = true)
+	public List<Owner> findByEmail()  {
+		return (List<Owner>) ownerDao.findByEmail();
+	};
+	 */
 	
 
 }

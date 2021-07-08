@@ -8,4 +8,6 @@ public interface IOwnerService {
 	
 	public List<Owner> findAll();
 
+	//public List<Owner> findByEmail(String email);
+
 }

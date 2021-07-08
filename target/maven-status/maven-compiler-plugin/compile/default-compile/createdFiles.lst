@@ -1,6 +1,8 @@
-com\mantiapp\springboot\backend\apirest\models\services\IClienteService.class
-com\mantiapp\springboot\backend\apirest\models\services\ClienteServiceImpl.class
+com\mantiapp\springboot\backend\apirest\controllers\OwnerRestController.class
+com\mantiapp\springboot\backend\apirest\models\services\IOwnerService.class
 com\mantiapp\springboot\backend\apirest\SpringBootBackendApirestApplication.class
-com\mantiapp\springboot\backend\apirest\controllers\ClienteRestController.class
-com\mantiapp\springboot\backend\apirest\models\dao\IClienteDao.class
-com\mantiapp\springboot\backend\apirest\models\entity\Cliente.class
+com\mantiapp\springboot\backend\apirest\models\entity\Owner.class
+com\mantiapp\springboot\backend\apirest\models\dao\IOwnershipDao.class
+com\mantiapp\springboot\backend\apirest\models\services\OwnerServiceImpl.class
+com\mantiapp\springboot\backend\apirest\models\entity\Ownership.class
+com\mantiapp\springboot\backend\apirest\models\dao\IOwnerDao.class

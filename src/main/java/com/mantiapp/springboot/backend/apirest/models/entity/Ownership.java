@@ -1,10 +1,7 @@
 package com.mantiapp.springboot.backend.apirest.models.entity;
 
-import com.sun.corba.se.spi.orb.Operation;
-
 import javax.persistence.*;
 import java.io.Serializable;
-import java.util.Date;
 
 @Entity
 @Table(name="ownerships")

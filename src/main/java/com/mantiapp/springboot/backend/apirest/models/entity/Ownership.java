@@ -21,6 +21,8 @@ public class Ownership implements Serializable {
 
     private float price;
 
+    private String photo;
+
     public Long getId() {
         return id;
     }
@@ -75,6 +77,14 @@ public class Ownership implements Serializable {
 
     public void setPrice(float price) {
         this.price = price;
+    }
+
+    public String getPhoto() {
+        return photo;
+    }
+
+    public void setPhoto(String photo) {
+        this.photo = photo;
     }
 
     private static final long serialVersionUID = 1L;

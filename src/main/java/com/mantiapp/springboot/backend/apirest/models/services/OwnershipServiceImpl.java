@@ -19,4 +19,22 @@ public class OwnershipServiceImpl implements IOwnershipService{
         return (List<Ownership>) ownershipDao.findAll();
     }
 
+    @Override
+    @Transactional(readOnly = true)
+    public Ownership findById(Long id) {
+        return ownershipDao.findById(id).orElse(null);
+    }
+
+    @Override
+    @Transactional(readOnly = true)
+    public Ownership save(Ownership ownership) {
+        return ownershipDao.save(ownership);
+    }
+
+    @Override
+    @Transactional(readOnly = true)
+    public void delete(Long id) {
+        ownershipDao.deleteById(id);
+    }
+
 }

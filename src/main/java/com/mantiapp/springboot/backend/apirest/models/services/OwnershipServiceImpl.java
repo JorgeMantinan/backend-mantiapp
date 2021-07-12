@@ -26,13 +26,13 @@ public class OwnershipServiceImpl implements IOwnershipService{
     }
 
     @Override
-    @Transactional(readOnly = true)
+    @Transactional
     public Ownership save(Ownership ownership) {
         return ownershipDao.save(ownership);
     }
 
     @Override
-    @Transactional(readOnly = true)
+    @Transactional
     public void delete(Long id) {
         ownershipDao.deleteById(id);
     }

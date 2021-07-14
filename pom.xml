@@ -75,7 +75,7 @@
 			<version>1.1.1.RELEASE</version>
 		</dependency>
 
-		/* Dependencies for use oauth and jwt in jdk +9 */
+		<!-- Dependencies for use oauth and jwt in jdk +9 -->
 		<dependency>
 			<groupId>javax.xml.bind</groupId>
 			<artifactId>jaxb-api</artifactId>

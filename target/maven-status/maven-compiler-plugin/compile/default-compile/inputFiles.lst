@@ -8,4 +8,5 @@ D:\ProyectoWeb\backend\spring-boot-backend-apirest\src\main\java\com\mantiapp\sp
 D:\ProyectoWeb\backend\spring-boot-backend-apirest\src\main\java\com\mantiapp\springboot\backend\apirest\models\dao\IOwnershipDao.java
 D:\ProyectoWeb\backend\spring-boot-backend-apirest\src\main\java\com\mantiapp\springboot\backend\apirest\models\services\OwnershipServiceImpl.java
 D:\ProyectoWeb\backend\spring-boot-backend-apirest\src\main\java\com\mantiapp\springboot\backend\apirest\models\entity\Ownership.java
+D:\ProyectoWeb\backend\spring-boot-backend-apirest\src\main\java\com\mantiapp\springboot\backend\apirest\models\entity\Role.java
 D:\ProyectoWeb\backend\spring-boot-backend-apirest\src\main\java\com\mantiapp\springboot\backend\apirest\SpringBootBackendApirestApplication.java

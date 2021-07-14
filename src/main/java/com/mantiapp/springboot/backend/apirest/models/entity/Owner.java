@@ -1,7 +1,7 @@
 package com.mantiapp.springboot.backend.apirest.models.entity;
 
 import java.io.Serializable;
-import java.util.Date;
+import java.util.List;
 import javax.persistence.*;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
@@ -18,9 +18,20 @@ public class Owner implements Serializable {
 	@Email
 	@NotBlank
 	private String email;
-
 	private String name;
 	private String lastname;
+
+	//For the encrypt
+	@Column(length = 60)
+	private String password;
+
+	// For desactivated or activated the accounts
+	private Boolean enabled;
+
+	@ManyToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+	private List<Role> roles;
+
+	/* Getters and Setters */
 
 	public Long getId() {
 		return id;
@@ -52,6 +63,30 @@ public class Owner implements Serializable {
 
 	public void setLastname(String lastname) {
 		this.lastname = lastname;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public Boolean getEnabled() {
+		return enabled;
+	}
+
+	public void setEnabled(Boolean enabled) {
+		this.enabled = enabled;
+	}
+
+	public List<Role> getRoles() {
+		return roles;
+	}
+
+	public void setRoles(List<Role> roles) {
+		this.roles = roles;
 	}
 
 	private static final long serialVersionUID = 1L;

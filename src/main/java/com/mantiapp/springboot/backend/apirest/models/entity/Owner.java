@@ -28,7 +28,12 @@ public class Owner implements Serializable {
 	// For desactivated or activated the accounts
 	private Boolean enabled;
 
+	//JoinTable for change the name of the link table
+	//uniqueConstraint for the user haven't the same role assigned on the table by duplicated
 	@ManyToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+	@JoinTable(name = "owners_roles", joinColumns = @JoinColumn(name = "owner_id"),
+			inverseJoinColumns = @JoinColumn(name = "role_id"),
+	uniqueConstraints = {@UniqueConstraint(columnNames = {"owner_id","role_id"})})
 	private List<Role> roles;
 
 	/* Getters and Setters */

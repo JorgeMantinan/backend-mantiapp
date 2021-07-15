@@ -2,6 +2,7 @@ package com.mantiapp.springboot.backend.apirest.models.entity;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.List;
 
 @Entity
 @Table(name = "roles")
@@ -13,7 +14,6 @@ public class Role implements Serializable {
 
     @Column(unique = true, length = 20)
     private String name;
-
 
     /* Getters and Setters */
 

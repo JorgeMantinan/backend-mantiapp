@@ -5,20 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d3de1e5-0e65-4a6e-880d-2187db3e88cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mantiapp/springboot/backend/apirest/auth/AdditionalInfoToken.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mantiapp/springboot/backend/apirest/auth/AuthorizationServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mantiapp/springboot/backend/apirest/auth/AuthorizationServerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mantiapp/springboot/backend/apirest/controllers/OwnerRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mantiapp/springboot/backend/apirest/controllers/OwnerRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mantiapp/springboot/backend/apirest/models/dao/IOwnerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mantiapp/springboot/backend/apirest/models/dao/IOwnerDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mantiapp/springboot/backend/apirest/models/services/IOwnerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mantiapp/springboot/backend/apirest/models/services/IOwnerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mantiapp/springboot/backend/apirest/models/services/OwnerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mantiapp/springboot/backend/apirest/models/services/OwnerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mantiapp/springboot/backend/apirest/auth/AuthorizationServerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mantiapp/springboot/backend/apirest/auth/AuthorizationServerConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mantiapp/springboot/backend/apirest/controllers/OwnerRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mantiapp/springboot/backend/apirest/controllers/OwnerRestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mantiapp/springboot/backend/apirest/models/dao/IOwnerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mantiapp/springboot/backend/apirest/models/dao/IOwnerDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mantiapp/springboot/backend/apirest/models/services/IOwnerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mantiapp/springboot/backend/apirest/models/services/IOwnerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mantiapp/springboot/backend/apirest/models/services/OwnerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mantiapp/springboot/backend/apirest/models/services/OwnerServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mantiapp/springboot/backend/apirest/auth/ResourceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mantiapp/springboot/backend/apirest/auth/ResourceServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mantiapp/springboot/backend/apirest/auth/SpringSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mantiapp/springboot/backend/apirest/auth/SpringSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mantiapp/springboot/backend/apirest/controllers/OwnershipRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mantiapp/springboot/backend/apirest/controllers/OwnershipRestController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +70,7 @@
       <workItem from="1626469350775" duration="112000" />
       <workItem from="1626517933661" duration="2461000" />
       <workItem from="1626524013695" duration="2929000" />
-      <workItem from="1626539574733" duration="274000" />
+      <workItem from="1626539574733" duration="2279000" />
     </task>
     <servers />
   </component>

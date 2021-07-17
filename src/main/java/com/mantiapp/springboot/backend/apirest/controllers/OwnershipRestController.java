@@ -8,6 +8,7 @@ import org.springframework.core.io.UrlResource;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.annotation.Secured;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -42,12 +43,14 @@ public class OwnershipRestController {
     }
 
     //RequestBody because is obtained of RequestBody of Json
+    @Secured({"ROLE_ADMIN"})
     @PostMapping("/ownership")
     @ResponseStatus(HttpStatus.CREATED)
     public Ownership create(@RequestBody Ownership ownership){
         return ownershipService.save(ownership);
     }
 
+    @Secured({"ROLE_ADMIN"})
     @PutMapping("/ownership/{id}")
     @ResponseStatus(HttpStatus.CREATED)
     public Ownership update(@RequestBody Ownership ownership, @PathVariable Long id){
@@ -64,6 +67,7 @@ public class OwnershipRestController {
 
     }
 
+    @Secured({"ROLE_ADMIN"})
     @DeleteMapping("/ownership/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void delete(@PathVariable Long id){
@@ -84,6 +88,7 @@ public class OwnershipRestController {
     }
 
     // For upload the images of each Ownership
+    @Secured({"ROLE_ADMIN"})
     @PostMapping("/ownership/upload")
     public ResponseEntity<?> upload(@RequestParam("file")MultipartFile file, @RequestParam("id") Long id){
         Map<String, Object> response = new HashMap<>();

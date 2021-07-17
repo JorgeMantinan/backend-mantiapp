@@ -20,8 +20,6 @@ public class OwnerRestController {
 	@Autowired
 	private IOwnerService ownerService;
 
-
-
 	//List of urls with their uses
 	@GetMapping("/owners")
 	public List<Owner> index() {

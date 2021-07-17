@@ -5,6 +5,7 @@ com\mantiapp\springboot\backend\apirest\controllers\OwnershipRestController.clas
 com\mantiapp\springboot\backend\apirest\auth\JwtConfig.class
 com\mantiapp\springboot\backend\apirest\auth\SpringSecurityConfig.class
 com\mantiapp\springboot\backend\apirest\models\entity\Ownership.class
+com\mantiapp\springboot\backend\apirest\auth\AdditionalInfoToken.class
 com\mantiapp\springboot\backend\apirest\models\dao\IRoleDao.class
 com\mantiapp\springboot\backend\apirest\controllers\OwnerRestController.class
 com\mantiapp\springboot\backend\apirest\SpringBootBackendApirestApplication.class

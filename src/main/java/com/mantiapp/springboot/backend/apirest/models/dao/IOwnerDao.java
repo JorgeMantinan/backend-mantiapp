@@ -9,4 +9,6 @@ public interface IOwnerDao extends CrudRepository<Owner, Long>{
 
     public Owner findByEmail(String email);
 
+    public Owner findByName(String name);
+
 }

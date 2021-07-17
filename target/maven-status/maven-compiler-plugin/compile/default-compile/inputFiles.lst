@@ -3,7 +3,9 @@ D:\ProyectoWeb\backend\spring-boot-backend-apirest\src\main\java\com\mantiapp\sp
 D:\ProyectoWeb\backend\spring-boot-backend-apirest\src\main\java\com\mantiapp\springboot\backend\apirest\models\entity\Owner.java
 D:\ProyectoWeb\backend\spring-boot-backend-apirest\src\main\java\com\mantiapp\springboot\backend\apirest\models\services\OwnerServiceImpl.java
 D:\ProyectoWeb\backend\spring-boot-backend-apirest\src\main\java\com\mantiapp\springboot\backend\apirest\controllers\OwnerRestController.java
+D:\ProyectoWeb\backend\spring-boot-backend-apirest\src\main\java\com\mantiapp\springboot\backend\apirest\auth\JwtConfig.java
 D:\ProyectoWeb\backend\spring-boot-backend-apirest\src\main\java\com\mantiapp\springboot\backend\apirest\models\services\IOwnershipService.java
+D:\ProyectoWeb\backend\spring-boot-backend-apirest\src\main\java\com\mantiapp\springboot\backend\apirest\auth\AdditionalInfoToken.java
 D:\ProyectoWeb\backend\spring-boot-backend-apirest\src\main\java\com\mantiapp\springboot\backend\apirest\models\dao\IOwnershipDao.java
 D:\ProyectoWeb\backend\spring-boot-backend-apirest\src\main\java\com\mantiapp\springboot\backend\apirest\auth\ResourceServerConfig.java
 D:\ProyectoWeb\backend\spring-boot-backend-apirest\src\main\java\com\mantiapp\springboot\backend\apirest\SpringBootBackendApirestApplication.java

@@ -10,6 +10,8 @@ public interface IOwnerService {
 
     public Owner findById(Long id);
 
+    public Owner findByName(String name);
+
     public Owner findByEmail(String email);
 
     public Owner save(Owner owner);

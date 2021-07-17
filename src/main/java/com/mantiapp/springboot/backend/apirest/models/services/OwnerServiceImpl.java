@@ -28,6 +28,12 @@ public class OwnerServiceImpl implements IOwnerService{
 
     @Override
     @Transactional(readOnly = true)
+    public Owner findByName(String name) {
+        return ownerDao.findByName(name);
+    }
+
+    @Override
+    @Transactional(readOnly = true)
     public Owner findByEmail(String email) {
         return ownerDao.findByEmail(email);
     }

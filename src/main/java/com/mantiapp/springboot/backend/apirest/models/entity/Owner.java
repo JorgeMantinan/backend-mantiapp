@@ -14,7 +14,7 @@ public class Owner implements Serializable {
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
 
-	@Column(unique = true)
+	@Column(unique = true, name = "email")
 	@Email
 	@NotBlank
 	private String email;

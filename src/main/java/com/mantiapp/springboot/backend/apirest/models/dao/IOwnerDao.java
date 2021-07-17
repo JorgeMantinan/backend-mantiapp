@@ -7,6 +7,6 @@ import java.util.List;
 
 public interface IOwnerDao extends CrudRepository<Owner, Long>{
 
-    //public List<Owner> findByEmail(String email);
+    public Owner findByEmail(String email);
 
 }

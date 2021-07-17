@@ -1,7 +1,11 @@
 com\mantiapp\springboot\backend\apirest\models\services\IOwnerService.class
 com\mantiapp\springboot\backend\apirest\models\services\OwnershipServiceImpl.class
+com\mantiapp\springboot\backend\apirest\auth\AuthorizationServerConfig.class
 com\mantiapp\springboot\backend\apirest\controllers\OwnershipRestController.class
+com\mantiapp\springboot\backend\apirest\auth\JwtConfig.class
+com\mantiapp\springboot\backend\apirest\auth\SpringSecurityConfig.class
 com\mantiapp\springboot\backend\apirest\models\entity\Ownership.class
+com\mantiapp\springboot\backend\apirest\models\dao\IRoleDao.class
 com\mantiapp\springboot\backend\apirest\controllers\OwnerRestController.class
 com\mantiapp\springboot\backend\apirest\SpringBootBackendApirestApplication.class
 com\mantiapp\springboot\backend\apirest\models\entity\Owner.class
@@ -9,4 +13,6 @@ com\mantiapp\springboot\backend\apirest\models\services\IOwnershipService.class
 com\mantiapp\springboot\backend\apirest\models\entity\Role.class
 com\mantiapp\springboot\backend\apirest\models\dao\IOwnershipDao.class
 com\mantiapp\springboot\backend\apirest\models\services\OwnerServiceImpl.class
+com\mantiapp\springboot\backend\apirest\auth\ResourceServerConfig.class
+com\mantiapp\springboot\backend\apirest\models\services\OwnerService.class
 com\mantiapp\springboot\backend\apirest\models\dao\IOwnerDao.class
